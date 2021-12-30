@@ -1,5 +1,10 @@
+body{
+  min-width:100%;
+  overflow-x: hidden;
+}
 .App {
   text-align: center;
+
 }
 
 .App-logo {
@@ -36,3 +41,19 @@
     transform: rotate(360deg);
   }
 }
+.navbar{
+  background-color: #a40606;
+  background-image: linear-gradient(315deg, #a40606 0%, #d98324 74%);
+
+}
+.navbar h1{
+  color:white;
+  font-weight:bold;
+  text-align:center;
+  margin:auto;
+}
+.footer{
+  background-color: #a40606;
+  background-image: linear-gradient(315deg, #a40606 0%, #d98324 74%); 
+}
+
